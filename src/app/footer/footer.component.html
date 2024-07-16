@@ -1,0 +1,15 @@
+<div class="footer">
+    <div class="footer-left">
+        <div class="footer-text">CSS<br>IS<br>AWESOME</div>
+    </div>
+    <div class="footer-center">
+        <div class="footer-company">nabthat</div>
+    </div>
+    <div class="footer-right">
+        <button class="footer-button" (click)="toggleOptions()">POKAŻ<i class="fa fa-angle-up" id="icon"></i></button>
+    </div>
+    <div [class.hidden]="!showOptions" class="footer-options">
+        <button class="footer-option" (click)="resetPage()"><i class="fa fa-angle-right" id="right"></i>ZRESETUJ USTAWIENIA</button>
+        <button class="footer-option" (click)="addName()"><i class="fa fa-angle-right" id="right"></i>POKAŻ DANE OSOBOWE</button>
+    </div>
+</div>

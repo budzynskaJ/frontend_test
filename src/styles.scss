@@ -1,0 +1,20 @@
+
+$font: 'OpenSans';
+$back-color: #494a58;
+
+body {
+    background-color: $back-color; 
+  }
+
+  html, body {
+    font-family: $font;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#content {
+    min-height: calc(100% - 80px);
+    padding-bottom: 80px;
+}

@@ -1,0 +1,57 @@
+header {
+    background-color: #201f1f; 
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 100%; 
+    margin: 0 auto; 
+    height: 13%;
+  }
+  
+  .logo {
+    margin-left: 2rem;
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    background-color: #444240; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    overflow: hidden; 
+    transition: background-color 0.3s ease;
+}
+  
+  .logo i {
+    font-size: 80px;
+    color: #fff; 
+    line-height: 50px; 
+  }
+
+  .logo:hover {
+    background-color: orange; 
+  }
+  
+
+  .hover-text {
+    font-size: 32px; 
+    color: #fff; 
+    margin-right: 2rem;
+  }
+
+  .header-name {
+    font-size: 24px;
+    margin-top: 0.5rem;
+    position: absolute;
+    color: #fff;
+    right: 2rem;
+  }
+
+  
+
+
+  
+
+
+  

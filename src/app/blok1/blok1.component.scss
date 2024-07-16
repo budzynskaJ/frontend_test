@@ -1,0 +1,34 @@
+$text-color: #fff;
+
+.block {
+    flex: 1;
+    margin-left: 2rem;
+    flex-direction: column; 
+    justify-content: center;
+    color: $text-color;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 75px;
+}
+  
+  .block label {
+    margin-left: 0.5rem;
+  }
+
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.option input[type="radio"] {
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+  }
+
+.option input[type="radio"] {
+    accent-color: #fff; 
+  }

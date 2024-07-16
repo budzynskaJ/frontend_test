@@ -1,0 +1,23 @@
+.underline-text {
+    text-align: center; 
+  }
+  
+  h1 { 
+    font-size: 40px; 
+    color: #fff; 
+    margin-top: 2rem 0; 
+    display: inline-block;
+    position: relative;
+  }
+  
+  h1::after {
+    content: '';
+    display: block;
+    width: 80%;
+    height: 0.2rem;
+    margin-top: 10px; 
+    background-color: #585d63; 
+    position: absolute;
+    left: 10%; 
+    bottom: -10px;
+}
