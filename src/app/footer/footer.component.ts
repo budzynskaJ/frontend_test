@@ -24,8 +24,10 @@ export class FooterComponent {
 
   addName() {
     const header = document.getElementById('header-name');
-    if (header) {
-      header.innerHTML += 'Justyna Budzyńska'
+    const fullName = 'Justyna Budzyńska';
+  
+    if (header && !header.innerHTML.includes(fullName)) {
+      header.innerHTML += fullName;
     }
   }
 
