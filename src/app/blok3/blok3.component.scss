@@ -5,17 +5,22 @@ $text-color: #fff;
     flex-direction: column; 
     align-items: center; 
     justify-content: center; 
-    color: $text-color;
+    
 
     .title {
       margin-bottom: 75px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+      color: $text-color;
   }
     
     .block label {
       margin-right: 10px; 
+
     }
     
+}
+.content {
+  color: grey;
 }

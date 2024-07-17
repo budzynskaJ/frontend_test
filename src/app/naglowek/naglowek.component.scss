@@ -1,5 +1,7 @@
 .underline-text {
     text-align: center; 
+    margin-top: 2rem;
+    margin-bottom: 3rem;
   }
   
   h1 { 
@@ -14,9 +16,9 @@
     content: '';
     display: block;
     width: 80%;
-    height: 0.2rem;
+    height: 0.04rem;
     margin-top: 10px; 
-    background-color: #585d63; 
+    background-color: #fff; 
     position: absolute;
     left: 10%; 
     bottom: -10px;

@@ -34,19 +34,30 @@ header {
   }
   
 
-  .hover-text {
-    font-size: 32px; 
-    color: #fff; 
-    margin-right: 2rem;
-  }
+  .left-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
 
-  .header-name {
-    font-size: 24px;
-    margin-top: 0.5rem;
-    position: absolute;
-    color: #fff;
-    right: 2rem;
+    .hover-text {
+      font-size: 28px; 
+      color: #fff; 
+      margin-right: 2rem;
+      margin-bottom: 10px; 
+    }
+  
+    .header-name {
+      font-size: 28px;
+      position: relative;
+      color: #fff;
+      padding: 0;
+      margin-top: 10px;
+    
+    }
   }
+ 
 
   
 

@@ -17,4 +17,19 @@ import { Blok3Component } from "./blok3/blok3.component";
 })
 export class AppComponent {
   title = 'projekt-rekrutacyjny';
+
+  content: string = 'Początkowa treść'; // Domyślna treść
+
+  constructor() {}
+
+  replaceText() {
+    this.content = 'Nowy tekst zastępujący';
+  }
+
+  appendText() {
+    if (this.content.includes('Tekst doklejony'))
+      console.log('Taka treść już jest!')
+    else
+      this.content += ' Tekst doklejony';
+  }
 }
