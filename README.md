@@ -1,8 +1,5 @@
 # Zadanie rekrutacyjne
 
-## TODO
-
-
 ### DONE
 
 - Header powinien być na stałe przyklejony do topu, Logo HTML5 w headerze powinno linkować do '/' .  
