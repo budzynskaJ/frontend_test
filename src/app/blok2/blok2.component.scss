@@ -2,17 +2,18 @@ $text-color: #fff;
 $back-color: #494a58;
 
 .block {
-    flex: 2;
+   
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    
+    justify-content: center;
     color: $text-color;
+    
 }
 
 .title {
     text-align: center;
-    margin-bottom: 75px;
+    margin-bottom: 4.7rem;
 }
   
 
@@ -20,21 +21,21 @@ $back-color: #494a58;
     display: flex; 
     align-items: center; 
     justify-content: center;
-    width: 400px; 
-    height: 50px;
+    width: 25rem; 
+    height: 3.125rem;
   }
 
 
   .button {
     background-color: $back-color; 
-    border: 1px solid white;
+    border: 0.2rem solid white;
     color: grey;
-    padding: 15px 60px 15px 60px;
-    margin: 45px;
+    padding: 2% 8%;
+    margin: 3%;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 0.5rem;
   }
   
   .button:hover {

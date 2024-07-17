@@ -1,20 +1,21 @@
 $text-color: #fff;
 
 .block {
-    flex:3;
     margin-right: 2rem;
-    display: flex;
     flex-direction: column; 
     align-items: center; 
     justify-content: center; 
     color: $text-color;
-}
 
-.title {
-    text-align: center;
-    margin-bottom: 75px;
-}
-  
-  .block label {
-    margin-right: 10px; 
+    .title {
+      margin-bottom: 75px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
   }
+    
+    .block label {
+      margin-right: 10px; 
+    }
+    
+}
